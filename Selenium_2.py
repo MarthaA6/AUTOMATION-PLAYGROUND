@@ -39,7 +39,7 @@ Search = driver.find_element(By.CSS_SELECTOR,
 Search.send_keys("Mark")
 time.sleep(5)
 
-# ACTION COLUMN ---------------------------------------------------------------------------------------------------------
+# ACTION COLUMN -------------------------------------------------------------------------------------------------------
 # EDIT BUTTON ---------------------------------------------------------------------------------------------------------
 Edit_Button = driver.find_element(By.CSS_SELECTOR,
                                   '#customers > tbody > tr:nth-child(1) > td:nth-child(5) > a:nth-child(1) > i')
@@ -51,13 +51,14 @@ BackToCustomer_Button = driver.find_element(By.CSS_SELECTOR,
 BackToCustomer_Button.click()
 time.sleep(5)
 
-# DELETE BUTTON ---------------------------------------------------------------------------------------------------------
+# DELETE BUTTON -------------------------------------------------------------------------------------------------------
 Delete_Button = driver.find_element(By.CSS_SELECTOR,
                                     '#customers > tbody > tr:nth-child(1) > td:nth-child(5) > a:nth-child(2) > i')
 Delete_Button.click()
 time.sleep(5)
 
-# NEXT BUTTON
+# PAGE NAVIGATION BUTTON ----------------------------------------------------------------------------------------------
+# NEXT BUTTON ---------------------------------------------------------------------------------------------------------
 Next_Button = driver.find_element(By.CSS_SELECTOR,
                                   'body > div > div > nav > ul > li:nth-child(5) > a')
 Next_Button.click()
@@ -69,7 +70,7 @@ Previous_Button = driver.find_element(By.CSS_SELECTOR,
 Previous_Button.click()
 time.sleep(5)
 
-# 1 NEW CUSTOMER PAGE --------------------------------------------------------------------------------------------------------
+# 1 NEW CUSTOMER PAGE -------------------------------------------------------------------------------------------------
 NewCustomer1_Button = driver.find_element(By.CSS_SELECTOR,
                                           '#new-customer')
 NewCustomer1_Button.click()
@@ -80,7 +81,7 @@ Cancel_Button = driver.find_element(By.XPATH,
 Cancel_Button.click()
 time.sleep(5)
 
-# 2 NEW CUSTOMER PAGE --------------------------------------------------------------------------------------------------------
+# 2 NEW CUSTOMER PAGE -------------------------------------------------------------------------------------------------
 NewCustomer2_Button = driver.find_element(By.CSS_SELECTOR,
                                           '#new-customer')
 NewCustomer2_Button.click()
