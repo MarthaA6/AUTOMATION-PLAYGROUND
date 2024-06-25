@@ -122,10 +122,10 @@ GenderFemale_Button = driver.find_element(By.XPATH,
 GenderFemale_Button.click()
 time.sleep(5)
 
-AddToPromotionalList_Checkbox = driver.find_element(By.XPATH,
-                                                    '//*[@id="loginform"]/div/div/div/div/form/div[7]/input')
-AddToPromotionalList_Checkbox.click()
-time.sleep(5)
+# AddToPromotionalList_Checkbox = driver.find_element(By.XPATH,
+#                                                     '//*[@id="loginform"]/div/div/div/div/form/div[7]/input')
+# AddToPromotionalList_Checkbox.click()
+# time.sleep(5)
 
 Submit1_Button = driver.find_element(By.XPATH,
                                      '//*[@id="loginform"]/div/div/div/div/form/button')
