@@ -1,8 +1,7 @@
 OVERVIEW
-
 The “Customer Service” portal on the Automation Playground CRM portal allows users to input customer details such as email, first name, last name, city, state, and gender. There's also an option to add the customer to a promotional list. After filling in the necessary fields, users can submit the information or cancel the entry. 
 
-AUTOMATED FEATURES AND OBSERVATIONS
+AUTOMATED FEATURES
 These are the features and my observations during automation
 
 THE LOGIN PAGE: 
