@@ -15,7 +15,7 @@ SEARCH FIELD:
 
 EDIT ICON: 
 - The summary of the customer's information is displayed
-- Note- The customer's information could not be edited
+- Note: The customer's information could not be edited
 
 CANCEL ICON: 
 - Note: The customer's record is not deleted from the table
